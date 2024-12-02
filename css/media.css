@@ -1,0 +1,88 @@
+@media screen and (max-width: 992px) {
+    .slidbar {
+        background-color: #ffffff60;
+        color: black;
+        height: 100%;
+    } 
+    .slidbar .offcanvas-body {
+        background-color: #ffffff;
+        height: 100%;
+        width: 100%;
+        width: 95%;
+        margin: auto;
+    }
+    .slidbar .offcanvas-body ul li a{
+        color: black;
+    }
+
+    .offcanvas-header .btn-close {
+        margin-right: 5px;
+    }
+
+    .sildbar .offcanvas-body ul li .active {
+        color: black;
+    }
+
+    .dropend:hover > .dropdown-menu {
+        width: 80%;
+        margin-top: 10px;
+        margin-left: 50px;
+    } 
+
+    .home ul .nav-item .nav-link {
+        transition: .5s ease-in-out;
+    }
+
+    .home ul .nav-item .nav-link:hover {
+        color: #0078FF;
+    }
+
+    .home ul .nav-item .nav-link.active {
+        color: #0078FF;
+    }
+
+     .dropdown-menu .dropdown-item {
+        color: darkslategrey;
+        transition: .5s ease-in-out;
+        font-size: 16px;
+        font-weight: 600;
+        padding: 10px;
+        padding-right: 20px;
+    }
+
+     .dropdown-menu .dropdown-item:hover {
+        color: #0078FF;
+    }
+
+    /* Adjust dropend dropdown positioning */
+    .dropend:hover > .dropdown-menu {
+        width: auto; 
+        top: 0; 
+        left: 30%; 
+        margin-left: 0; 
+        margin-top: 0; 
+        position: absolute; 
+        transition: .7s all ease-in-out; 
+    }
+
+    /* Hover effect for dropdown items */
+    .dropdown-menu .dropdown-item:hover {
+        color: #0078FF; 
+        background-color: transparent; 
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .home .main-box h1 {
+        font-size: 38px;
+    }
+
+    .home .main-box .text-typing span::after {
+        font-size: 28px;
+    }
+
+    .contact .container .row .col-lg-6 .contact-info {
+        margin-top: 40px;
+    } 
+}

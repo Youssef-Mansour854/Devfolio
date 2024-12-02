@@ -1,0 +1,241 @@
+.home .main-box .text-typing span::after {
+    content: "";
+    color: #ffffff;
+    font-size: 40px;
+    animation: typing 15s infinite linear;
+    padding: 15px 0;
+}
+
+@keyframes typing {
+    0% {
+        content: "D|";
+    }
+    1% {
+        content: "De|";
+    }
+    2% {
+        content: "Des|";
+    }
+    3% {
+        content: "Desi|";
+    }
+    4% {
+        content: "Desig|";
+    }
+    5% {
+        content: "Design|";
+    }
+    6% {
+        content: "Designe|";
+    }
+    7% {
+        content: "Designer|";
+    }
+    8% {
+        content: "Designe|";
+    }
+    9% {
+        content: "Design|";
+    }
+    10% {
+        content: "Desig|";
+    }
+    11% {
+        content: "Desi|";
+    }
+    12% {
+        content: "Des|";
+    }
+    13% {
+        content: "De|";
+    }
+    
+    /* Developer typing */
+    14% {
+        content: "Dev|";
+    }
+    15% {
+        content: "Deve|";
+    }
+    16% {
+        content: "Devel|";
+    }
+    17% {
+        content: "Develo|";
+    }
+    18% {
+        content: "Develop|";
+    }
+    19% {
+        content: "Develope|";
+    }
+    20% {
+        content: "Developer|";
+    }
+    21% {
+        content: "Develope|";
+    }
+    22% {
+        content: "Develop|";
+    }
+    23% {
+        content: "Develo|";
+    }
+    24% {
+        content: "Devel|";
+    }
+    25% {
+        content: "Deve|";
+    }
+    26% {
+        content: "Dev|";
+    }
+    27% {
+        content: "De|";
+    }
+    28% {
+        content: "D|";
+    }
+    29% {
+        content: "|";
+    }
+    /* Photographer typing */
+    30% {
+        content: "P|";
+    }
+    31% {
+        content: "Ph|";
+    }
+    32% {
+        content: "Pho|";
+    }
+    33% {
+        content: "Phot|";
+    }
+    34% {
+        content: "Photo|";
+    }
+    35% {
+        content: "Photog|";
+    }
+    36% {
+        content: "Photogr|";
+    }
+    37% {
+        content: "Photogra|";
+    }
+    38% {
+        content: "Photograph|";
+    }
+    39% {
+        content: "Photographe|";
+    }
+    40% {
+        content: "Photographer|";
+    }
+    41% {
+        content: "Photographe|";
+    }
+    42% {
+        content: "Photograph|";
+    }
+    43% {
+        content: "Photograp|";
+    }
+    44% {
+        content: "Photogra|";
+    }
+    45% {
+        content: "Photogr|";
+    }
+    46% {
+        content: "Photog|";
+    }
+    47% {
+        content: "Photo|";
+    }
+    48% {
+        content: "Phot|";
+    }
+    49% {
+        content: "Pho|";
+    }
+    50% {
+        content: "Ph|";
+    }
+    51% {
+        content: "P|";
+    }
+    52% {
+        content: "|";
+    }
+
+    /* Freelancer typing */
+    53% {
+        content: "F|";
+    }
+    54% {
+        content: "Fr|";
+    }
+    55% {
+        content: "Fre|";
+    }
+    56% {
+        content: "Free|";
+    }
+    57% {
+        content: "Freel|";
+    }
+    58% {
+        content: "Freela|";
+    }
+    59% {
+        content: "Freelan|";
+    }
+    60% {
+        content: "Freelanc|";
+    }
+    61% {
+        content: "Freelance|";
+    }
+    62% {
+        content: "Freelancer|";
+    }
+    63% {
+        content: "Freelance|";
+    }
+    64% {
+        content: "Freelanc|";
+    }
+    65% {
+        content: "Freelan|";
+    }
+    66% {
+        content: "Freela|";
+    }
+    67% {
+        content: "Freel|";
+    }
+    68% {
+        content: "Free|";
+    }
+    69% {
+        content: "Fre|";
+    }
+    70% {
+        content: "Fr|";
+    }
+    71% {
+        content: "F|";
+    }
+    72% {
+        content: "|";
+    }
+    /* Blinking cursor at the end */
+    100% {
+        content: "|";
+    }
+}
+
+
+/* Media queries for responsiveness */
